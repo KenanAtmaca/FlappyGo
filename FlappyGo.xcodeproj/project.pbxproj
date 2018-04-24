@@ -8,26 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		8ADE543F207001A50040FA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE543E207001A50040FA4B /* AppDelegate.swift */; };
-		8ADE5441207001A50040FA4B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE5440207001A50040FA4B /* GameScene.sks */; };
-		8ADE5443207001A50040FA4B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE5442207001A50040FA4B /* Actions.sks */; };
 		8ADE5445207001A50040FA4B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE5444207001A50040FA4B /* GameScene.swift */; };
 		8ADE5447207001A50040FA4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE5446207001A50040FA4B /* GameViewController.swift */; };
-		8ADE544A207001A50040FA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE5448207001A50040FA4B /* Main.storyboard */; };
 		8ADE544C207001A80040FA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE544B207001A80040FA4B /* Assets.xcassets */; };
 		8ADE544F207001A80040FA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE544D207001A80040FA4B /* LaunchScreen.storyboard */; };
+		8ADE5457207025EA0040FA4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE5456207025EA0040FA4B /* Extensions.swift */; };
+		8AFB43182070F6C900D0DE5E /* sfx_wing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB43172070F6C800D0DE5E /* sfx_wing.wav */; };
+		8AFB431A2070F6D300D0DE5E /* sfx_point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB43192070F6D300D0DE5E /* sfx_point.wav */; };
+		8AFB431C2070F6DB00D0DE5E /* sfx_hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB431B2070F6DB00D0DE5E /* sfx_hit.wav */; };
+		8AFB432020711D8800D0DE5E /* Flappy-Bird.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB431F20711D8800D0DE5E /* Flappy-Bird.ttf */; };
+		8AFB432220712D1400D0DE5E /* FlappyBirdy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB432120712D1400D0DE5E /* FlappyBirdy.ttf */; };
+		8AFB4324207131C100D0DE5E /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB4323207131C100D0DE5E /* MenuScene.swift */; };
+		8AFB43262071359900D0DE5E /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB43252071359900D0DE5E /* bird.atlas */; };
+		8AFB43292071389300D0DE5E /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB43282071389300D0DE5E /* click.mp3 */; };
+		8AFB432B20713B3000D0DE5E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB432A20713B3000D0DE5E /* GameOverScene.swift */; };
+		EB7B743C27FBD58C13BF49BA /* Pods_FlappyGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405DFF34D89F9A51E36E11F0 /* Pods_FlappyGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		405DFF34D89F9A51E36E11F0 /* Pods_FlappyGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlappyGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FAF6A5164DA741E379D06 /* Pods-FlappyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlappyGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlappyGo/Pods-FlappyGo.debug.xcconfig"; sourceTree = "<group>"; };
 		8ADE543B207001A50040FA4B /* FlappyGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADE543E207001A50040FA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8ADE5440207001A50040FA4B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		8ADE5442207001A50040FA4B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		8ADE5444207001A50040FA4B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8ADE5446207001A50040FA4B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		8ADE5449207001A50040FA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ADE544B207001A80040FA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ADE544E207001A80040FA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ADE5450207001A80040FA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADE5456207025EA0040FA4B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8AFB43172070F6C800D0DE5E /* sfx_wing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_wing.wav; sourceTree = "<group>"; };
+		8AFB43192070F6D300D0DE5E /* sfx_point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_point.wav; sourceTree = "<group>"; };
+		8AFB431B2070F6DB00D0DE5E /* sfx_hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_hit.wav; sourceTree = "<group>"; };
+		8AFB431F20711D8800D0DE5E /* Flappy-Bird.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flappy-Bird.ttf"; sourceTree = "<group>"; };
+		8AFB432120712D1400D0DE5E /* FlappyBirdy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlappyBirdy.ttf; sourceTree = "<group>"; };
+		8AFB4323207131C100D0DE5E /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		8AFB43252071359900D0DE5E /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		8AFB43282071389300D0DE5E /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		8AFB432A20713B3000D0DE5E /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AD2FCAC1BD525B18194B2BC9 /* Pods-FlappyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlappyGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlappyGo/Pods-FlappyGo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7B743C27FBD58C13BF49BA /* Pods_FlappyGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0737A4A5926156D0B2E5E2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				719FAF6A5164DA741E379D06 /* Pods-FlappyGo.debug.xcconfig */,
+				AD2FCAC1BD525B18194B2BC9 /* Pods-FlappyGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8ADE5432207001A50040FA4B = {
 			isa = PBXGroup;
 			children = (
 				8ADE543D207001A50040FA4B /* FlappyGo */,
 				8ADE543C207001A50040FA4B /* Products */,
+				0737A4A5926156D0B2E5E2B7 /* Pods */,
+				947F09CAE02C946F16F016EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +91,47 @@
 			isa = PBXGroup;
 			children = (
 				8ADE543E207001A50040FA4B /* AppDelegate.swift */,
-				8ADE5440207001A50040FA4B /* GameScene.sks */,
-				8ADE5442207001A50040FA4B /* Actions.sks */,
 				8ADE5444207001A50040FA4B /* GameScene.swift */,
+				8AFB4323207131C100D0DE5E /* MenuScene.swift */,
+				8AFB432A20713B3000D0DE5E /* GameOverScene.swift */,
+				8ADE5456207025EA0040FA4B /* Extensions.swift */,
 				8ADE5446207001A50040FA4B /* GameViewController.swift */,
-				8ADE5448207001A50040FA4B /* Main.storyboard */,
+				8AFB43162070F69700D0DE5E /* Sounds */,
 				8ADE544B207001A80040FA4B /* Assets.xcassets */,
 				8ADE544D207001A80040FA4B /* LaunchScreen.storyboard */,
+				8AFB43252071359900D0DE5E /* bird.atlas */,
+				8AFB4327207135A500D0DE5E /* Fonts */,
 				8ADE5450207001A80040FA4B /* Info.plist */,
 			);
 			path = FlappyGo;
+			sourceTree = "<group>";
+		};
+		8AFB43162070F69700D0DE5E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8AFB43282071389300D0DE5E /* click.mp3 */,
+				8AFB431B2070F6DB00D0DE5E /* sfx_hit.wav */,
+				8AFB43172070F6C800D0DE5E /* sfx_wing.wav */,
+				8AFB43192070F6D300D0DE5E /* sfx_point.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8AFB4327207135A500D0DE5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8AFB431F20711D8800D0DE5E /* Flappy-Bird.ttf */,
+				8AFB432120712D1400D0DE5E /* FlappyBirdy.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		947F09CAE02C946F16F016EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405DFF34D89F9A51E36E11F0 /* Pods_FlappyGo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ADE5453207001A80040FA4B /* Build configuration list for PBXNativeTarget "FlappyGo" */;
 			buildPhases = (
+				D164ABCCA06C8A8C99BE7BBB /* [CP] Check Pods Manifest.lock */,
 				8ADE5437207001A50040FA4B /* Sources */,
 				8ADE5438207001A50040FA4B /* Frameworks */,
 				8ADE5439207001A50040FA4B /* Resources */,
@@ -131,15 +193,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADE544A207001A50040FA4B /* Main.storyboard in Resources */,
-				8ADE5441207001A50040FA4B /* GameScene.sks in Resources */,
+				8AFB43292071389300D0DE5E /* click.mp3 in Resources */,
 				8ADE544C207001A80040FA4B /* Assets.xcassets in Resources */,
+				8AFB432020711D8800D0DE5E /* Flappy-Bird.ttf in Resources */,
+				8AFB43182070F6C900D0DE5E /* sfx_wing.wav in Resources */,
+				8AFB432220712D1400D0DE5E /* FlappyBirdy.ttf in Resources */,
+				8AFB431C2070F6DB00D0DE5E /* sfx_hit.wav in Resources */,
 				8ADE544F207001A80040FA4B /* LaunchScreen.storyboard in Resources */,
-				8ADE5443207001A50040FA4B /* Actions.sks in Resources */,
+				8AFB43262071359900D0DE5E /* bird.atlas in Resources */,
+				8AFB431A2070F6D300D0DE5E /* sfx_point.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D164ABCCA06C8A8C99BE7BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlappyGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8ADE5437207001A50040FA4B /* Sources */ = {
@@ -148,21 +235,16 @@
 			files = (
 				8ADE5445207001A50040FA4B /* GameScene.swift in Sources */,
 				8ADE5447207001A50040FA4B /* GameViewController.swift in Sources */,
+				8AFB4324207131C100D0DE5E /* MenuScene.swift in Sources */,
 				8ADE543F207001A50040FA4B /* AppDelegate.swift in Sources */,
+				8AFB432B20713B3000D0DE5E /* GameOverScene.swift in Sources */,
+				8ADE5457207025EA0040FA4B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8ADE5448207001A50040FA4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8ADE5449207001A50040FA4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8ADE544D207001A80040FA4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -225,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -290,37 +372,43 @@
 		};
 		8ADE5454207001A80040FA4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719FAF6A5164DA741E379D06 /* Pods-FlappyGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B24WNBC56;
-				INFOPLIST_FILE = FlappyGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/FlappyGo",
 				);
+				INFOPLIST_FILE = FlappyGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenan.FlappyGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8ADE5455207001A80040FA4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2FCAC1BD525B18194B2BC9 /* Pods-FlappyGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B24WNBC56;
-				INFOPLIST_FILE = FlappyGo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/FlappyGo",
 				);
+				INFOPLIST_FILE = FlappyGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenan.FlappyGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -8,48 +8,35 @@
 
 import UIKit
 import SpriteKit
-import GameplayKit
 
 class GameViewController: UIViewController {
+    
+    let skView:SKView = {
+       let view = SKView()
+       view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(skView)
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
-    }
-
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
+        skView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        skView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        skView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        skView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        
+        let scene = MenuScene(size: CGSize(width: self.view.bounds.size.width, height: self.view.bounds.size.height))
+        scene.scaleMode = .aspectFill
+        
+        skView.presentScene(scene)
+        skView.ignoresSiblingOrder = true
     }
 
     override var prefersStatusBarHidden: Bool {
         return true
     }
 }
+
+
+
